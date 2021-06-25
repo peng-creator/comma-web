@@ -18,9 +18,25 @@
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
   
-  <title>Archives - Comma</title>
+  <title>更新日志-2021-06-25 - Comma</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/comma-web/lib/hint/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.7.2/styles/github-gist.min.css" />
+    
+  
+
+  
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  
 
 
 
@@ -48,7 +64,7 @@
 
 
 <body>
-  <header style="height: 60vh;">
+  <header style="height: 40vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -118,11 +134,48 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="Archive">
+            <span class="h2" id="subtitle" title="更新日志-2021-06-25">
               
-                Archive
+                更新日志-2021-06-25
               
             </span>
+
+            
+              <div class="mt-3">
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2021-06-25 22:05" pubdate>
+        June 25, 2021 pm
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      223 字
+    </span>
+  
+
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      2
+       分钟
+    </span>
+  
+
+  
+  
+</div>
 
             
           </div>
@@ -135,52 +188,139 @@
 
   <main>
     
-      <div class="container nopadding-x-md">
-        <div class="py-5" id="board"
-          >
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
-
-<div class="list-group">
-  <p class="h4">3 posts in total.</p>
-  <hr>
-  
-  
-    
       
-      <p class="h5">2021</p>
-    
-    <a href="/comma-web/post/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97-2021-06-25.html" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">更新日志-2021-06-25</span>
-      <time style="float: right;">06-25</time>
-    </a>
-  
-    
-    <a href="/comma-web/post/%E8%A7%86%E9%A2%91%E5%AF%BC%E5%85%A5%E6%80%A7%E8%83%BD%E9%97%AE%E9%A2%98%E7%9A%84%E4%BC%98%E5%8C%96%E5%BB%BA%E8%AE%AE%E5%92%8C%E5%8E%9F%E5%9B%A0.html" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">视频导入性能问题的优化建议和原因</span>
-      <time style="float: right;">06-22</time>
-    </a>
-  
-    
-    <a href="/comma-web/post/%E7%BB%99%E6%88%91%E4%B8%80%E4%B8%AA%E4%BD%BF%E7%94%A8%20Comma%20%E7%9A%84%E7%90%86%E7%94%B1.html" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">给我一个使用 Comma 的理由？</span>
-      <time style="float: right;">06-20</time>
-    </a>
-  
-</div>
 
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">更新日志-2021-06-25</h1>
+            
+            <div class="markdown-body">
+              <ul>
+<li><p>自定义标题栏、窗口适应性调整</p>
+</li>
+<li><p>改善状态变化管理</p>
+</li>
+<li><p>字幕增加右键菜单，右击字幕单词可以加入单词本</p>
+</li>
+<li><p>导入单词方式变为粘贴文本</p>
+</li>
+<li><p>点击字幕单词自动翻译</p>
+</li>
+<li><p>增加播放历史，最多保存 10 条记录，用于支持“切换上个单词”</p>
+</li>
+<li><p>增加播放器快捷键</p>
+<ul>
+<li>点击视频区域才能激活快捷键<table>
+<thead>
+<tr>
+<th>快捷键</th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>a</td>
+<td>单词生疏度 -100</td>
+</tr>
+<tr>
+<td>g</td>
+<td>单词生疏度 +100</td>
+</tr>
+<tr>
+<td>f</td>
+<td>视频最大化切换</td>
+</tr>
+<tr>
+<td>空格键</td>
+<td>暂停/播放</td>
+</tr>
+<tr>
+<td>j、ArrowDown</td>
+<td>下个单词</td>
+</tr>
+<tr>
+<td>k、ArrowUp</td>
+<td>上个单词</td>
+</tr>
+<tr>
+<td>h、ArrowLeft</td>
+<td>当前单词的上一视频</td>
+</tr>
+<tr>
+<td>l、ArrowRight</td>
+<td>当前单词的下一视频</td>
+</tr>
+<tr>
+<td>l</td>
+<td>当前单词的下一视频</td>
+</tr>
+<tr>
+<td>l</td>
+<td>当前单词的下一视频</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+</li>
+<li><p>字幕字体大小自适应优化</p>
+</li>
+<li><p>暂停播放时视频区域显示播放按钮</p>
+</li>
+</ul>
 
-
-
-
-              </div>
             </div>
-          </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                
+              </div>
+              
+              
+                <div class="post-prevnext">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/comma-web/post/%E8%A7%86%E9%A2%91%E5%AF%BC%E5%85%A5%E6%80%A7%E8%83%BD%E9%97%AE%E9%A2%98%E7%9A%84%E4%BC%98%E5%8C%96%E5%BB%BA%E8%AE%AE%E5%92%8C%E5%8E%9F%E5%9B%A0.html">
+                        <span class="hidden-mobile">视频导入性能问题的优化建议和原因</span>
+                        <span class="visible-mobile">Next</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
         </div>
       </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;TOC</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
     
 
     
@@ -238,9 +378,15 @@
 
 
 
+  <script  src="https://cdn.jsdelivr.net/npm/tocbot@4.12.3/dist/tocbot.min.js" ></script>
 
 
 
+  <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" ></script>
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4.3.1/anchor.min.js" ></script>
 
 
 
