@@ -1,25 +1,25 @@
 ---
 title: Comma
 banner_img: /img/bg/banner.svg
-date: 2021-06-20 16:14:06
+date: 2022-04-23 09:14:06
 banner_img_height: 100
 banner_mask_alpha: 0.4
 ---
 
-Comma 是一款帮助您利用视频资源学习单词的桌面应用。您可以使用它导入电视剧、纪录片、动画、电影，在本地建立拥有海量视频片段的离线英语学习资料库。
+Comma 是一款开源免费的英语学习桌面应用。
+## 下载
+### Windows 
+[Comma.Setup.1.1.0.exe](https://github.com/peng-creator/Comma/releases/download/1.1.0/Comma.Setup.1.1.0.exe)
+### MacOS
+[Comma-1.1.0.dmg](https://github.com/peng-creator/Comma/releases/download/1.1.0/Comma-1.1.0.dmg)
 
-##### 功能简介
+## 请我喝咖啡
+Comma 是本人业余时间用爱发电，如果觉得好用的话，请我喝杯咖啡支持一下。
 
-它能够根据字幕文本中的单词自动剪辑视频，选择一个单词，Comma 就会为您播放所有包含这个单词的片段。
+![支付宝 乞丐要饭图](https://peng-creator.github.io/comma-web/img/index/qiafan.jpg)
 
-##### 导入单词
+## 问题反馈与资源分享
 
-新建一个单词本，然后选择一个包含单词的 .txt 文件进行导入。
+Comma 不是内容平台，不提供任何学习资源，如果您想分享资源，或者想获取他人分享的资源，或者您在使用过程中有任何疑问和建议，欢迎👏加入下方微信群：
 
-##### 导入视频
-
-将视频文件（目前仅支持 .mp4 和 .mkv 格式）与字幕文件（目前仅支持.ass 格式）放置在同一目录下，然后选择这个目录进行导入。
-
-##### 设置单词生疏度
-
-单词的播放顺序是自动计算的。您可以根据熟练程度给每个单词设定生疏度，自动播放时，越生疏的单词出现的次数也越多。
+![微信群 资源共享](https://peng-creator.github.io/comma-web/img/index/wechat-group.jpeg)

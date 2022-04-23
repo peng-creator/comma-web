@@ -1,8 +1,12 @@
 ---
 title: download
-date: 2021-06-20 16:34:35
+date: 2022-04-23 14:20:35
 banner_img_height: 30
 banner_mask_alpha: 0.3
 ---
 
-链接: https://pan.baidu.com/s/1rR5sbEh8ztP0FY0m8lLU6A 密码: lnba
+## 1.1.0
+### Windows 
+[Comma.Setup.1.1.0.exe](https://github.com/peng-creator/Comma/releases/download/1.1.0/Comma.Setup.1.1.0.exe)
+### MacOS
+[Comma-1.1.0.dmg](https://github.com/peng-creator/Comma/releases/download/1.1.0/Comma-1.1.0.dmg)
