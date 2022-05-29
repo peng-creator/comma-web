@@ -13,6 +13,8 @@ Comma 是一款开源免费的英语学习桌面应用。
 
 [Comma.Mate.Setup.1.0.0.exe](https://github.com/peng-creator/Comma/releases/download/1.2.0/Comma.Mate.Setup.1.0.0.exe)
 
+[Comma.Mate-1.0.0.dmg](https://github.com/peng-creator/Comma/releases/download/1.2.0/Comma.Mate-1.0.0.dmg)
+
 ## 1.2.0
 ### Windows 
 [Comma.Setup.1.2.0.exe](https://github.com/peng-creator/Comma/releases/download/1.2.0/Comma.Setup.1.2.0.exe)
@@ -26,6 +28,6 @@ Comma 不是内容平台，不提供任何学习资源，如果您想分享资�
 ![微信群 资源共享](https://peng-creator.github.io/comma-web/img/index/wechat-group.jpg)
 
 ## 请我喝咖啡
-Comma 是本人业余时间用爱发电，如果觉得对你有帮助，可以请我喝杯咖啡充电。
+Comma 是本人业余时间用爱发电，如果觉得对你有帮助，可以请我喝杯咖啡。
 
 ![支付宝 乞丐要饭图](https://peng-creator.github.io/comma-web/img/index/qiafan.jpg)
