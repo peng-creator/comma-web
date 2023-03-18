@@ -308,7 +308,6 @@ navbar:
     # - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "Comma", link: "/comma/", icon: "iconfont icon-douhao" }
     - { key: "Articles", link: "/", icon: "iconfont icon-rizhi" }
-    - { key: "Download", link: "/download/", icon: "iconfont icon-Downloadfromthecloud" }
     # - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
     #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
 
